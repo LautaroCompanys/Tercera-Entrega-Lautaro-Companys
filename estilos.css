@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* ------HEADER------- */
+
+.navbar-brand img{
+    height: 90px;
+}
+
+/* -------------MAIN---------- */
+main{
+    height: 900px;
+    width: 100%;
+}
+
+/* --------FOOTER-------- */
+
+
+
+.caja{
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient(to right bottom, #000000, #291e24, #4a3748, #665473, #7b75a3, #7c8cc2, #76a5de, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    /* transform: translate(300px, 100px); */
+    /* transform: rotate(30deg); */
+    transition: 0,7s;
+}
+
+.caja:hover{
+    transform: rotatex(360deg);
+    transition: 4s;
+}
