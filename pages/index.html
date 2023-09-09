@@ -8,13 +8,15 @@
     <!-- BS FIN -->
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- ANIMACION AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Inicio</title>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="Multimedia/aguila.png" alt="Logo"></a>
+                <a class="navbar-brand" href="#"><img src="/Multimedia/aguila.png" alt="Logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -42,7 +44,7 @@
     </header>
     <main>
 
-
+<!-- -----------BANNER ------------------->
         <section class="banner">
             <div class="bannerContenido">
                 <h1>CompanysCNC</h1>
@@ -51,23 +53,12 @@
             </div>
         </section>
         <div class="galeria2">
-            <div class="cartel cartel1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias facere hic numquam dolore eligendi quibusdam quisquam explicabo perspiciatis libero, laborum repellat voluptates! Nesciunt eius aliquid, qui at cum ea dolorum?</p></div>
-            <div class="cartel cartel2"></div>
-            <div class="cartel cartel3"></div>
-            <div class="cartel cartel4"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla ullam excepturi minus illum consequatur incidunt dolores repellat repellendus cupiditate quae voluptatum mollitia exercitationem nostrum voluptas ex, aut eos odit qui!</p></div>
-        <!-- <div class="letras">
-            <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, sunt reiciendis magnam aperiam, itaque temporibus ipsa totam facere beatae in molestiae voluptatum voluptates omnis odit cupiditate rem nostrum voluptatibus vitae.
-            Assumenda autem iste, tenetur cum enim dolorem, dolore dolores fugiat nisi laudantium incidunt. .
-            </p>
-            <img src="../Multimedia/letras-corporeas.jpg" alt="Letras corporeas">
+            <div class="cartel cartel1" data-aos="fade-right" data-aos-duration="3000"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias facere hic numquam dolore eligendi quibusdam quisquam explicabo perspiciatis libero, laborum repellat voluptates! Nesciunt eius aliquid, qui at cum ea dolorum?</p></div>
+            <div class="cartel cartel2" data-aos="fade-left" data-aos-duration="3000"></div>
+            <div class="cartel cartel3" data-aos="fade-right" data-aos-duration="3000"></div>
+            <div class="cartel cartel4" data-aos="fade-left" data-aos-duration="3000"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla ullam excepturi minus illum consequatur incidunt dolores repellat repellendus cupiditate quae voluptatum mollitia exercitationem nostrum voluptas ex, aut eos odit qui!</p></div>
         </div>
-        <div class="letras">
-            <img src="../Multimedia/WhatsApp Image 2023-07-31 at 04.45.30.jpeg" alt="Letras corporeas">
-            <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, sunt reiciendis magnam aperiam, itaque temporibus ipsa totam facere beatae in molestiae voluptatum voluptates omnis odit cupiditate rem nostrum voluptatibus vitae.
-            Assumenda autem iste, tenetur cum enim dolorem, dolore dolores fugiat nisi laudantium incidunt. 
-            </p> -->
+        
     
     </main>
 
@@ -120,8 +111,12 @@
 
 
 
-
-
+<!-- ANIMACION AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<!-- BOOSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
