@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter:wght@300&family=Maven+Pro&family=Noto+Serif:wght@300&family=Oswald:wght@200&family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter:wght@300&family=DM+Serif+Display&family=Maven+Pro&family=Noto+Serif:wght@300&family=Oswald:wght@200&family=Russo+One&display=swap");
 /* font-family: 'Bebas Neue', sans-serif;
 font-family: 'Bitter', serif;
 font-family: 'Maven Pro', sans-serif;
 font-family: 'Noto Serif', serif;
 font-family: 'Oswald', sans-serif;
+font-family: 'DM Serif Display', serif;
 font-family: 'Russo One', sans-serif; TITULOS */
 * {
   padding: 0;
@@ -12,7 +13,7 @@ font-family: 'Russo One', sans-serif; TITULOS */
 
 /* ------HEADER------- */
 .navbar-brand img {
-  height: 90px;
+  height: 100px;
 }
 
 /* -------------MAIN---------- */
@@ -50,45 +51,44 @@ main {
   font-family: "Russo One", sans-serif;
 }
 .banner p {
-  font-family: "Maven Pro", sans-serif;
+  font-family: "DM Serif Display", serif;
   font-weight: 400;
+  font-size: 18px;
 }
 
 .galeria2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 300px);
-  padding: 400px 300px 100px 300px;
+  padding: 200px 300px 100px 300px;
 }
 .galeria2 .cartel {
   background-size: cover;
   background-position: center;
 }
-.galeria2 .cartel1 p {
-  padding: 10px 30px 10px 100px;
-  font-family: "Noto Serif", serif;
+.galeria2 ul {
+  font-family: "DM Serif Display", serif;
+  font-size: 20px;
+}
+.galeria2 ul span {
+  color: rgba(202, 199, 19, 0.781);
 }
 .galeria2 .cartel2 {
-  background-image: url(/Multimedia/anita.jpg);
+  background-image: url(/Multimedia/villaelectricidad.jpg);
   margin: 0px 0px 40px 40px;
+  background-position: top;
 }
 .galeria2 .cartel3 {
   background-image: url(/Multimedia/WhatsApp\ Image\ 2023-07-31\ at\ 04.45.30.jpeg);
   margin: 40px 40px 0px 0px;
 }
-.galeria2 .cartel4 p {
-  padding: 40px 100px 0px 40px;
-  font-family: "Noto Serif", serif;
+.galeria2 .cartel4 ul {
+  padding: 40px 0 0 70px;
 }
 
 @media only screen and (max-width: 1450px) {
   .galeria2 {
-    padding: 100px 50px;
-  }
-}
-@media only screen and (max-width: 1240px) {
-  .galeria2 {
-    padding: 100px;
+    padding: 200px 180px;
   }
 }
 @media only screen and (max-width: 1050px) {
@@ -117,6 +117,7 @@ main {
     grid-column: 1;
     grid-row: 3;
     margin: 0;
+    margin-top: 50px;
   }
   .galeria2 .cartel4 {
     grid-column: 1;
@@ -125,6 +126,24 @@ main {
   }
   .galeria2 .cartel4 .p {
     padding: 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .banner {
+    height: 800px;
+  }
+  .galeria2 {
+    grid-template-columns: repeat(1, 400px);
+    grid-template-rows: repeat(4, 500px);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 20px 0 20px;
+    width: 90%;
+    height: 2300px;
+    justify-content: center;
+  }
+  .footer {
+    padding-top: 20px;
   }
 }
 /* --------SECCION PRODUCTOS-------- */
@@ -161,14 +180,15 @@ main {
   transform: scale(1.4);
 }
 .galeria1 .item3 {
-  background-image: url(/Multimedia/mpima.jpg);
+  background-image: url(/Multimedia/terminal.jpg);
   transition: transform 1.2s;
+  background-position: top;
 }
 .galeria1 .item3:hover {
   transform: scale(1.4);
 }
 .galeria1 .item4 {
-  background-image: url(/Multimedia/terminal.jpg);
+  background-image: url(/Multimedia/mpima.jpg);
   background-position: top;
   transition: transform 1.2s;
 }
@@ -198,7 +218,7 @@ main {
   transform: scale(1.4);
 }
 .galeria1 .item8 {
-  background-image: url(/Multimedia/valen\ \(1\).jpg);
+  background-image: url(/Multimedia/valen2.jpg);
   transition: transform 1.2s;
 }
 .galeria1 .item8:hover {
@@ -321,7 +341,6 @@ main {
   display: flex;
   justify-content: center;
   margin-right: 0;
-  height: 1400px;
 }
 
 .carrusel img {
@@ -335,6 +354,11 @@ main {
   height: 700px;
 }
 
+@media only screen and (max-width: 800px) {
+  .carrusel button {
+    padding-bottom: 400px;
+  }
+}
 /* --------SECCION CLIENTES-------- */
 .nuestrosClientes {
   font-family: "Russo One", sans-serif;
@@ -361,7 +385,7 @@ main {
 }
 .contenedorClientes .cliente .comentario p {
   position: absolute;
-  top: 40%;
+  top: 20%;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -374,22 +398,59 @@ main {
   border-radius: 80%;
 }
 
+@media only screen and (max-width: 550px) {
+  .contenedorClientes .cliente {
+    padding-left: 0;
+  }
+}
 /* --------SECCION CONTACTO-------- */
-.labels {
-  padding: 100px 70% 100px 100px;
+.contacto {
+  font-family: "Russo One", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
 }
-.labels .cajaComentario {
-  padding-top: 20px;
+
+.seccionContacto {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
 }
-.labels .botonesContacto {
-  padding-top: 40px;
+.seccionContacto .fondoContacto {
+  background-image: url(/Multimedia/fondocontacto2.jpg);
+  background-color: rgba(36, 119, 196, 0.384);
+  border-radius: 2%;
+}
+.seccionContacto .botones {
+  padding-top: 30px;
+}
+.seccionContacto label {
+  font-family: "DM Serif Display", serif;
+}
+
+.pmapa {
+  display: flex;
+  justify-content: center;
+}
+.pmapa p {
+  font-family: "DM Serif Display", serif;
+  font-size: 20px;
+  padding-top: 100px;
 }
 
 .mapa {
-  padding: 100px 70% 100px 100px;
+  padding: 50px 0 100px 0;
+  display: flex;
+  justify-content: center;
 }
 .mapa iframe {
   height: 300px;
 }
 
-/*# sourceMappingURL=estilos.css.map */
+@media only screen and (max-width: 658px) {
+  .mapa iframe {
+    width: 70%;
+    height: 200px;
+  }
+}/*# sourceMappingURL=estilos.css.map */
