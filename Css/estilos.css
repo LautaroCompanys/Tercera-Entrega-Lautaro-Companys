@@ -20,7 +20,7 @@ font-family: 'Russo One', sans-serif; TITULOS */
 main {
   height: 100%;
   width: 100%;
-  background-image: url(/Multimedia/fondogris.jpg);
+  background-image: url(../Multimedia/fondogris.jpg);
   background-size: cover;
 }
 
@@ -33,7 +33,7 @@ main {
 /* --------SECCION INICIO-------- */
 .banner {
   height: 600px;
-  background-image: url(/Multimedia/Bannercnc.jpg);
+  background-image: url(../Multimedia/Bannercnc.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -75,12 +75,12 @@ main {
   color: rgba(202, 199, 19, 0.781);
 }
 .galeria2 .cartel2 {
-  background-image: url(/Multimedia/villaelectricidad.jpg);
+  background-image: url(../Multimedia/villaelectricidad.jpg);
   margin: 0px 0px 40px 40px;
   background-position: top;
 }
 .galeria2 .cartel3 {
-  background-image: url(/Multimedia/WhatsApp\ Image\ 2023-07-31\ at\ 04.45.30.jpeg);
+  background-image: url(../Multimedia/WhatsApp\ Image\ 2023-07-31\ at\ 04.45.30.jpeg);
   margin: 40px 40px 0px 0px;
 }
 .galeria2 .cartel4 ul {
@@ -166,7 +166,7 @@ main {
   background-position: center;
 }
 .galeria1 .item1 {
-  background-image: url(/Multimedia/villaelectricidad.jpg);
+  background-image: url(../Multimedia/villaelectricidad.jpg);
   background-position-y: top;
   transition: transform 1.2s;
 }
@@ -174,14 +174,14 @@ main {
   transform: scale(1.4);
 }
 .galeria1 .item2 {
-  background-image: url(/Multimedia/farmalab\ \(1\).jpg);
+  background-image: url(../Multimedia/farmalab\ \(1\).jpg);
   transition: transform 1.2s;
 }
 .galeria1 .item2:hover {
   transform: scale(1.4);
 }
 .galeria1 .item3 {
-  background-image: url(/Multimedia/terminal.jpg);
+  background-image: url(../Multimedia/terminal.jpg);
   transition: transform 1.2s;
   background-position: top;
 }
@@ -189,7 +189,7 @@ main {
   transform: scale(1.4);
 }
 .galeria1 .item4 {
-  background-image: url(/Multimedia/mpima.jpg);
+  background-image: url(../Multimedia/mpima.jpg);
   background-position: top;
   transition: transform 1.2s;
 }
@@ -197,7 +197,7 @@ main {
   transform: scale(1.4);
 }
 .galeria1 .item5 {
-  background-image: url(/Multimedia/verdurasycarnes.jpg);
+  background-image: url(../Multimedia/verdurasycarnes.jpg);
   background-position: top;
   transition: transform 1.2s;
 }
@@ -205,21 +205,21 @@ main {
   transform: scale(1.4);
 }
 .galeria1 .item6 {
-  background-image: url(/Multimedia/cuatrovientos.jpg);
+  background-image: url(../Multimedia/cuatrovientos.jpg);
   transition: transform 1.2s;
 }
 .galeria1 .item6:hover {
   transform: scale(1.4);
 }
 .galeria1 .item7 {
-  background-image: url(/Multimedia/anita.jpg);
+  background-image: url(../Multimedia/anita.jpg);
   transition: transform 1.2s;
 }
 .galeria1 .item7:hover {
   transform: scale(1.4);
 }
 .galeria1 .item8 {
-  background-image: url(/Multimedia/valen2.jpg);
+  background-image: url(../Multimedia/valen2.jpg);
   transition: transform 1.2s;
 }
 .galeria1 .item8:hover {
@@ -419,7 +419,7 @@ main {
   padding-top: 100px;
 }
 .seccionContacto .fondoContacto {
-  background-image: url(/Multimedia/fondocontacto2.jpg);
+  background-image: url(../Multimedia/fondocontacto2.jpg);
   background-color: rgba(36, 119, 196, 0.384);
   border-radius: 2%;
 }
